@@ -113,7 +113,8 @@ docker exec c1 ping c2
 ```
 ***Questions:***
 
-1. Are you able to ping? Show your output . ***(1 mark)*** __Fill answer here__.
+1. Are you able to ping? Show your output . ***(1 mark)*** <br> <img src="./images/bridging.jpeg" width="50%">.
+
 2. What is different from the previous ping in the section above? ***(1 mark)*** __Fill answer here__.
 
 ## Intermediate Level (10 marks bonus)
