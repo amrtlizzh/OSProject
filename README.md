@@ -35,14 +35,7 @@ Look at the TERMINAL tab. Run the following commands and provide the output here
 
 1. Run the command **pwd** . ***(1 mark)*** <br> <img src="./images/command1.jpeg" width="70%">
 2. Run the command **cat /etc/passwd** . ***(1 mark)*** <br> <img src="./images/command2.jpeg" width="70%">
-3. Run the command **df** . ***(1 mark)*** <br> __```@amrtlizzh ➜ /workspaces/OSProject (main) $ df
-Filesystem     1K-blocks     Used Available Use% Mounted on
-overlay         32847680 10381264  20772316  34% /
-tmpfs              65536        0     65536   0% /dev
-shm                65536        0     65536   0% /dev/shm
-/dev/root       30298176 24508540   5773252  81% /vscode
-/dev/loop3      32847680 10381264  20772316  34% /workspaces
-/dev/sdb1       46127956      104  43752276   1% /tmp```__.
+3. Run the command **df** . ***(1 mark)*** <br> <img src="./images/command3.jpeg" width="70%"> 
 4. Run the command **du** . ***(1 mark)*** __Fill answer here__.
 5. Run the command **ls** . ***(1 mark)*** __Fill answer here__.
 6. Run the command **ls -asl** . ***(1 mark)*** __Fill answer here__.
