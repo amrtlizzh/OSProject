@@ -10,18 +10,12 @@ Team Mates:
 3. __NUR AMIROTUL IZZAH BINTI MOHAMAD FAIZAL__ and __2216966__
 
 
-## Forking this OS project repository
-1. First thing you need in doing this project is to have a github account. Make sure to sign up at https://www.github.com
-2. The second thing you need is to fork the OS project repository in your own github account. 
-
-    1. Go to https://github.com/joeynor/OSProject and click fork to copy the project into your own repository
-    2. Make sure that the new fork is now in your own repository
-
 ***Questions:***
 
 1. What is the link of the fork OSProject in your repository. ***(1 mark)***
  __https://github.com/amrtlizzh/OSProject__.
-2. How many files and folders are in this repository. ***(1 mark)*** __Fill answer here__.
+2. How many files and folders are in this repository. ***(1 mark)*** __<br>  __- 1 readme.md file__
+ <br>  __- 1 images folder____.
 
 
 ## Exploring github codespaces
