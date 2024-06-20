@@ -54,7 +54,7 @@ Look at the TERMINAL tab. Run the following commands and provide the output here
 <br> <img src="./images/command8d.jpg" width="70%">
 10. Run the command **top** and type **q** to quit. ***(1 mark)*** <br> <img src="./images/command9.jpeg" width="70%">.
 11. Run the command **uname -a**. ***(1 mark)*** <br> <img src="./images/command10.jpeg" width="70%">.
-12. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
+12. What is the available free memory in the system. ***(1 mark)*** <br> __355.0 MiB__.
 13. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
 14. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
 15. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
