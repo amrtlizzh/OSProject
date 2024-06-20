@@ -74,21 +74,20 @@ __```2560 4K pages.```__.
 
 ***Questions:***
 
-1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** <br> __User: codespace
-Group: codespace.__ <br> __Group: codespace__
+1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** <br> __User: codespace.__ <br> __Group: root__
 2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
 ```bash
 //use sudo and chown
 sudo chown -R codespace:codespace myroot
 
 ```
-*** __Fill answer here__.***
+<br> <img src="./images/changePermission.jpg" width="70%">
 
 ## You are on your own, create your own static webpage
 
 ***Questions:***
 
-1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __Fill answer here__.
+1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __User: 1000.__ <br> __Group: root__ <br> <img src="./images/permission.jpg" width="70%">
 2. What port is the apache web server running. ***(1 mark)*** <br> __```8080```__.
 3. What port is open for http protocol on the host machine? ***(1 mark)*** <br> __```8080```__ <br> <img src="./images/webpage.jpg" width="70%">.
 
