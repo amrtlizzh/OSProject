@@ -35,7 +35,7 @@ Look at the TERMINAL tab. Run the following commands and provide the output here
 
 1. Run the command **pwd** . ***(1 mark)*** <br> __```@amrtlizzh ➜ /workspaces/OSProject (main) $ pwd
 /workspaces/OSProject```__ .
-2. Run the command **cat /etc/passwd** . ***(1 mark)*** __@amrtlizzh ➜ /workspaces/OSProject (main) $ cat /etc/passwd
+2. Run the command **cat /etc/passwd** . ***(1 mark)*** <br> __```@amrtlizzh ➜ /workspaces/OSProject (main) $ cat /etc/passwd
 root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
 bin:x:2:2:bin:/bin:/usr/sbin/nologin
@@ -46,7 +46,7 @@ man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
 lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
 mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
 news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
-uucp:x:10:10:uuc__.
+uucp:x:10:10:uuc```__.
 3. Run the command **df** . ***(1 mark)*** __Fill answer here__.
 4. Run the command **du** . ***(1 mark)*** __Fill answer here__.
 5. Run the command **ls** . ***(1 mark)*** __Fill answer here__.
