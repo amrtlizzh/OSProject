@@ -37,10 +37,10 @@ Look at the TERMINAL tab. Run the following commands and provide the output here
 2. Run the command **cat /etc/passwd** . ***(1 mark)*** <br> <img src="./images/command2.jpeg" width="70%">
 3. Run the command **df** . ***(1 mark)*** <br> <img src="./images/command3.jpeg" width="50%"> 
 4. Run the command **du** . ***(1 mark)***
-<br> <img src="./images/command4p1.jpeg" width="20%">
-<br> <img src="./images/command4p2.jpeg" width="20%">.
-<br> <img src="./images/command4p3.jpeg" width="20%">.
-<br> <img src="./images/command4p4.jpeg" width="20%">.
+<br> <img src="./images/command4p1.jpeg" width="30%">
+<br> <img src="./images/command4p2.jpeg" width="30%">.
+<br> <img src="./images/command4p3.jpeg" width="30%">.
+<br> <img src="./images/command4p4.jpeg" width="30%">.
 5. Run the command **ls** . ***(1 mark)***
 <br> <img src="./images/command5.jpeg" width="70%">.
 6. Run the command **ls -asl** . ***(1 mark)***
