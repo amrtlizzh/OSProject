@@ -10,12 +10,6 @@ Team Mates:
 3. __NUR AMIROTUL IZZAH BINTI MOHAMAD FAIZAL__ and __2216966__
 
 
-## Rules
-1. You are allowed to have **3 group** members. *Exception* is allowed **IFF (if and only if)** you are allowed to have 4 group members if you are a **multinational** or a **multigender** group. 
-2. When you complete the project, make sure to submit the repository link of your cloned project. Make sure all the files are as what you aspect in your repository. 
-3. Answer all questions in the **README.md**, in your own repository. Either use the online VSCode, terminal or github to edit. Answers are expected where you see __Fill answer here__.
-4. Learn how to use markdown. https://www.w3schools.io/file/markdown-introduction/
-
 ## Forking this OS project repository
 1. First thing you need in doing this project is to have a github account. Make sure to sign up at https://www.github.com
 2. The second thing you need is to fork the OS project repository in your own github account. 
@@ -61,7 +55,7 @@ Team Mates:
 
 1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** __Ubuntu Linux__.
 2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** __<img src="Q2MachineType.png" width="70%">
-<br> <img src="Q2MachineType.png" width="70%"> <br> __1. VCPU 2-CORE: RAM = 8GB DISK = 32GB <br> 2. VCPU 4-CORE: RAM = 16GB DISK = 32GB__.
+<br> <img src="Screenshot(600).png" width="70%"> <br> __1. VCPU 2-CORE: RAM = 8GB DISK = 32GB <br> 2. VCPU 4-CORE: RAM = 16GB DISK = 32GB__.
 3. Why must we commit and sync our current work on source control? ***(1 mark)*** __Fill answer here__.
 
 ## Exploring the Terminal
