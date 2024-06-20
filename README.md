@@ -35,7 +35,7 @@ Look at the TERMINAL tab. Run the following commands and provide the output here
 
 1. Run the command **pwd** . ***(1 mark)*** <br> <img src="./images/command1.jpeg" width="70%">
 2. Run the command **cat /etc/passwd** . ***(1 mark)*** <br> <img src="./images/command2.jpeg" width="70%">
-3. Run the command **df** . ***(1 mark)*** <br> <img src="./images/command3.jpeg" width="70%"> 
+3. Run the command **df** . ***(1 mark)*** <br> <img src="./images/command3.jpeg" width="50%"> 
 4. Run the command **du** . ***(1 mark)***
 <br> <img src="./images/command4p1.jpeg" width="20%">
 <br> <img src="./images/command4p2.jpeg" width="20%">.
@@ -48,10 +48,10 @@ Look at the TERMINAL tab. Run the following commands and provide the output here
 7. Run the command **free -h** . ***(1 mark)***
 <br> <img src="./images/command7.jpeg" width="70%">.
 8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** 
-<br> <img src="./images/command8a.jpeg" width="20%">.
-<br> <img src="./images/command8b.jpeg" width="70%">.
-<br> <img src="./images/command8c.jpeg" width="20%">.
-<br> <img src="./images/command4p1.jpeg" width="70%">
+<br> <img src="./images/command8a.jpg" width="20%">.
+<br> <img src="./images/command8b.jpg" width="70%">.
+<br> <img src="./images/command8c.jpg" width="20%">.
+<br> <img src="./images/command8d.jpg" width="70%">
 10. Run the command **top** and type **q** to quit. ***(1 mark)*** <br> <img src="./images/command9.jpeg" width="70%">.
 11. Run the command **uname -a**. ***(1 mark)*** <br> <img src="./images/command10.jpeg" width="70%">.
 12. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
