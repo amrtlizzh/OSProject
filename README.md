@@ -54,7 +54,7 @@ Look at the TERMINAL tab. Run the following commands and provide the output here
 <br> <img src="./images/command8d.jpg" width="70%">
 9. Run the command **top** and type **q** to quit. ***(1 mark)*** <br> <img src="./images/command9.jpeg" width="70%">.
 10. Run the command **uname -a**. ***(1 mark)*** <br> <img src="./images/command10.jpeg" width="70%">.
-11. What is the available free memory in the system. ***(1 mark)*** <br> __512 Mi__.
+11. What is the available free memory in the system. ***(1 mark)*** <br> __' ' '512 Mi' ' '__.
 12. What is the available disk space mounted on /workspace. ***(1 mark)*** __20772316 Mi__.
 13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** <br> __Linux codespaces-63a3c6 6.5.0-1021-azure #22~22.04.1-Ubuntu SMP Tue Apr 30 16:08:18 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux__.
 14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** <br> __The ls command lists files and directories in the current directory. The ls -asl command lists all files and directories in the current directory with detailed information, including hidden files, sizes, permissions, and ownership.__.
