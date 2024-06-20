@@ -33,20 +33,8 @@ Team Mates:
 
 Look at the TERMINAL tab. Run the following commands and provide the output here. 
 
-1. Run the command **pwd** . ***(1 mark)*** <br> __```@amrtlizzh ➜ /workspaces/OSProject (main) $ pwd
-/workspaces/OSProject```__ .
-2. Run the command **cat /etc/passwd** . ***(1 mark)*** <br> __```@amrtlizzh ➜ /workspaces/OSProject (main) $ cat /etc/passwd
-root:x:0:0:root:/root:/bin/bash
-daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
-bin:x:2:2:bin:/bin:/usr/sbin/nologin
-sys:x:3:3:sys:/dev:/usr/sbin/nologin
-sync:x:4:65534:sync:/bin:/bin/sync
-games:x:5:60:games:/usr/games:/usr/sbin/nologin
-man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
-lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
-mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
-news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
-uucp:x:10:10:uuc```__.
+1. Run the command **pwd** . ***(1 mark)*** <br> <img src="./images/command1.jpeg" width="70%">
+2. Run the command **cat /etc/passwd** . ***(1 mark)*** <br> src="./images/command2.jpeg" width="70%">
 3. Run the command **df** . ***(1 mark)*** <br> __```@amrtlizzh ➜ /workspaces/OSProject (main) $ df
 Filesystem     1K-blocks     Used Available Use% Mounted on
 overlay         32847680 10381264  20772316  34% /
