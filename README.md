@@ -47,7 +47,14 @@ lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
 mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
 news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
 uucp:x:10:10:uuc```__.
-3. Run the command **df** . ***(1 mark)*** __Fill answer here__.
+3. Run the command **df** . ***(1 mark)*** <br> __```@amrtlizzh ➜ /workspaces/OSProject (main) $ df
+Filesystem     1K-blocks     Used Available Use% Mounted on
+overlay         32847680 10381264  20772316  34% /
+tmpfs              65536        0     65536   0% /dev
+shm                65536        0     65536   0% /dev/shm
+/dev/root       30298176 24508540   5773252  81% /vscode
+/dev/loop3      32847680 10381264  20772316  34% /workspaces
+/dev/sdb1       46127956      104  43752276   1% /tmp```__.
 4. Run the command **du** . ***(1 mark)*** __Fill answer here__.
 5. Run the command **ls** . ***(1 mark)*** __Fill answer here__.
 6. Run the command **ls -asl** . ***(1 mark)*** __Fill answer here__.
