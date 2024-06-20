@@ -13,7 +13,7 @@ Team Mates:
 ***Questions:***
 
 1. What is the link of the fork OSProject in your repository. ***(1 mark)***
-<br> __```https://github.com/amrtlizzh/OSProject__.
+<br> __https://github.com/amrtlizzh/OSProject__.
 2. How many files and folders are in this repository. ***(1 mark)*** __<br>  __- 1 readme.md file__
  <br>  __- 1 images folder____.
 
