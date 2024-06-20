@@ -55,12 +55,13 @@ Look at the TERMINAL tab. Run the following commands and provide the output here
 9. Run the command **top** and type **q** to quit. ***(1 mark)*** <br> <img src="./images/command9.jpeg" width="70%">.
 10. Run the command **uname -a**. ***(1 mark)*** <br> <img src="./images/command10.jpeg" width="70%">.
 11. What is the available free memory in the system. ***(1 mark)*** <br> __```512 Mi```__.
-12. What is the available disk space mounted on /workspace. ***(1 mark)*** __20772316 Mi__.
-13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** <br> __Linux codespaces-63a3c6 6.5.0-1021-azure #22~22.04.1-Ubuntu SMP Tue Apr 30 16:08:18 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux__.
-14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** <br> __The ls command lists files and directories in the current directory. The ls -asl command lists all files and directories in the current directory with detailed information, including hidden files, sizes, permissions, and ownership.__.
-15. What is the TLB size of the Virtual CPU. ***(1 mark)*** <br> __2560 4K pages.__.
-16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** <br> __3026.803__.
-17. What is the top running process that consumes the most CPU cycles. ***(1 mark)***  <br> __top - 07:31:45 up  3:26,  0 users,  load average: 0.08, 0.15, 0.16__.
+12. What is the available disk space mounted on /workspace. ***(1 mark)*** __```20772316 Mi```__.
+13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** <br> __```Linux codespaces-63a3c6 6.5.0-1021-azure #22~22.04.1-Ubuntu SMP Tue Apr 30 16:08:18 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux```__.
+14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** <br> __```The ls command lists files and directories in the current directory. The ls -asl command lists all files and directories in the current directory with detailed information, including hidden files, sizes, permissions, and ownership.```__.
+15. What is the TLB size of the Virtual CPU. ***(1 mark)*** <br>
+__```2560 4K pages.```__.
+16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** <br> __```3026.803 ```__.
+17. What is the top running process that consumes the most CPU cycles. ***(1 mark)***  <br> __```top - 07:31:45 up  3:26,  0 users,  load average: 0.08, 0.15, 0.16 ```__.
 
 ## Running your own container instance.
 
@@ -120,8 +121,8 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 
 ***Questions:***
 
-1. Are files in the container persistent. Why not?. ***(1 mark)*** __Fill answer here__.
-2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Fill answer here__.
+1. Are files in the container persistent. Why not?. ***(1 mark)*** <br> __Files in a container are not persistent because containers are designed to be temporary and easily disposaable. When a container is deleted, its filesystem and any files inside it are also deleted.__.
+2. Can we run two, or three instances of debian linux? . ***(1 mark)*** <br> __Yes, because each container acts like a separate debian linux system, allowing running multiple instances at once.__.
 
 ## Running your own container with persistent storage
 
