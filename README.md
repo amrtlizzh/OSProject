@@ -13,8 +13,8 @@ Team Mates:
 ***Questions:***
 
 1. What is the link of the fork OSProject in your repository. ***(1 mark)***
-<br> __https://github.com/amrtlizzh/OSProject__.
-2. How many files and folders are in this repository. ***(1 mark)*** __<br>  __- 1 readme.md file__ <br>  __- 1 webpage folder__
+<br> __```https://github.com/amrtlizzh/OSProject__.
+2. How many files and folders are in this repository. ***(1 mark)*** __<br>  __- 1 readme.md file__ <br>
  <br>  __- 1 images folder____.
 
 
@@ -113,7 +113,7 @@ docker exec c1 ping c2
 ```
 ***Questions:***
 
-1. Are you able to ping? Show your output . ***(1 mark)*** <br> <img src="./images/bridging.jpeg" width="50%">.
+1. Are you able to ping? Show your output . ***(1 mark)*** <br>___```bash Yes ```___ <br> <img src="./images/bridging.jpeg" width="50%">.
 
 2. What is different from the previous ping in the section above? ***(1 mark)*** <br> __```The difference from the previous ping is that in the successful scenario, both containers are on the same user-defined Docker network, allowing c1 to resolve and communicate with c2, whereas in the error scenario, c1 could not resolve c2 due to being on different networks or lack of proper network configuration```__.
 
