@@ -34,7 +34,7 @@ Team Mates:
 Look at the TERMINAL tab. Run the following commands and provide the output here. 
 
 1. Run the command **pwd** . ***(1 mark)*** <br> <img src="./images/command1.jpeg" width="70%">
-2. Run the command **cat /etc/passwd** . ***(1 mark)*** <br> src="./images/command2.jpeg" width="70%">
+2. Run the command **cat /etc/passwd** . ***(1 mark)*** <br> <img src="./images/command2.jpeg" width="70%">
 3. Run the command **df** . ***(1 mark)*** <br> __```@amrtlizzh ➜ /workspaces/OSProject (main) $ df
 Filesystem     1K-blocks     Used Available Use% Mounted on
 overlay         32847680 10381264  20772316  34% /
