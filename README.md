@@ -67,8 +67,8 @@ __```2560 4K pages.```__.
 
 ***Questions:***
 
-1. Are files in the container persistent. Why not?. ***(1 mark)*** <br> __Files in a container are not persistent because containers are designed to be temporary and easily disposaable. When a container is deleted, its filesystem and any files inside it are also deleted.__.
-2. Can we run two, or three instances of debian linux? . ***(1 mark)*** <br> __Yes, because each container acts like a separate debian linux system, allowing running multiple instances at once.__.
+1. Are files in the container persistent. Why not?. ***(1 mark)*** <br> __```Files in a container are not persistent because containers are designed to be temporary and easily disposaable. When a container is deleted, its filesystem and any files inside it are also deleted```__.
+2. Can we run two, or three instances of debian linux? . ***(1 mark)*** <br> __```Yes, because each container acts like a separate debian linux system, allowing running multiple instances at once```__.
 
 ## Running your own container with persistent storage
 
@@ -87,7 +87,7 @@ sudo chown -R codespace:codespace myroot
 
 ***Questions:***
 
-1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __User: 1000.__ <br> __Group: root__ <br> <img src="./images/permission.jpg" width="70%">
+1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** <br> __```User: 1000.```__ <br> __```Group: root```__ <br> <img src="./images/permission.jpg" width="70%">
 2. What port is the apache web server running. ***(1 mark)*** <br> __```8080```__.
 3. What port is open for http protocol on the host machine? ***(1 mark)*** <br> __```8080```__ <br> <img src="./images/webpage.jpg" width="70%">.
 
