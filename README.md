@@ -63,61 +63,7 @@ __```2560 4K pages.```__.
 16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** <br> __```3026.803 ```__.
 17. What is the top running process that consumes the most CPU cycles. ***(1 mark)***  <br> __```top - 07:31:45 up  3:26,  0 users,  load average: 0.08, 0.15, 0.16 ```__.
 
-## Running your own container instance.
-
-1. At the terminal, run a linux instance. By typing the following command. 
-```
-docker pull debian
-docker run --detach -it debian
-```
-2. This will run the debian container. To check if the debian container is running, type
-```bash
-@joeynor ➜ /workspaces/OSProject (main) $ docker ps -a
-CONTAINER ID   IMAGE     COMMAND   CREATED         STATUS         PORTS     NAMES
-f65be1987f84   debian    "bash"    4 minutes ago   Up 4 minutes             romantic_jackson
-```
-
-3. Keep note of the name used by your container, this is usually given random names unless you specify your own name. Now run a bash command on the container. Make sure you use the name of your container instead of the one shown here. 
-```bash
-docker exec -i -t romantic_jackson /bin/bash
-```
-
-4. Create a file on the container. First you must make sure you are in the bash command prompt of the container. The container is new, and does not have any software other than the debian OS. To create a new file, you will need an editor installed. In the bash shell of the container, run the package manager apt-get to install nano text editor. 
-
-```bash
-root@f65be1987f84:~# apt-get update      
-
-root@f65be1987f84:~# apt-get install nano
-
-root@f65be1987f84:~# cd /root
-
-root@f65be1987f84:~# nano helloworld.txt
-```
-
-5. Edit your helloworld.txt, create your messsage and save by typing ctrl-X. Once saved, explore using the container to see where the file is located. Then exit the shell, by typing **exit**.
-
-6. Stop the container and run **docker ps -a**, and restart the container again. Is your file in the container still available?
-```bash 
-@joeynor ➜ /workspaces/OSProject (main) $ docker stop romantic_jackson
-
-@joeynor ➜ /workspaces/OSProject (main) $ docker ps -a
-CONTAINER ID   IMAGE     COMMAND   CREATED          STATUS                        PORTS     NAMES
-f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago             romantic_jackson
-
-@joeynor ➜ /workspaces/OSProject (main) $ docker restart romantic_jackson
-```
-
-7. Stop the container and delete the container. What happened to your helloworld.txt?
-
-```bash 
-@joeynor ➜ /workspaces/OSProject (main) $ docker stop romantic_jackson
-
-@joeynor ➜ /workspaces/OSProject (main) $ docker ps -a
-CONTAINER ID   IMAGE     COMMAND   CREATED          STATUS                        PORTS     NAMES
-f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago             romantic_jackson
-
-@joeynor ➜ /workspaces/OSProject (main) $ docker rm romantic_jackson
-```
+## Running your own container
 
 ***Questions:***
 
@@ -125,19 +71,6 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 2. Can we run two, or three instances of debian linux? . ***(1 mark)*** <br> __Yes, because each container acts like a separate debian linux system, allowing running multiple instances at once.__.
 
 ## Running your own container with persistent storage
-
-1. In the previous experiment, you might have notice that containers are not persistent. To make storage persistent, you will need to mount them. 
-At the terminal, create a new directory called **myroot**, and run a instance of debian linux and mount myroot to the container. Find out the exact path of my root, and mount it as the root folder in the debian container. 
-2. Create a file in /root on the container, the files should also appear in myroot of your host VM.
-
-```bash 
-@joeynor ➜ /workspaces/OSProject (main) $ mkdir myroot
-@joeynor ➜ /workspaces/OSProject (main) $ cd myroot/
-@joeynor ➜ /workspaces/OSProject/myroot (main) $ pwd
-/workspaces/OSProject/myroot
-
-@joeynor ➜ /workspaces/OSProject/myroot (main) $ docker run --detach -it -v /workspaces/OSProject/myroot:/root debian
-```
 
 ***Questions:***
 
@@ -152,31 +85,11 @@ sudo chown -R codespace:codespace myroot
 
 ## You are on your own, create your own static webpage
 
-1. Create a directory called webpage in your host machine
-2. Inside the directory, create a page index.html, with any content you would like
-3. Then, run the apache webserver and mount the webpage directory to it. Hint:
-```bash
-## the -p 8080:80 flag points the host port 8080 to the container port 80
-
-docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ -p 8080:80 httpd
-```
-
-4. If it works, codespace will trigger a port assignment and provide a URL for you to access your webpage like the one below.
-
- <img src="./images/websitelink.png" width="70%">
-
-
-5. You can also see the Port in the **PORTS** tab, next to the terminal tab.
-
-6. You can then access your website by adding an index.html towards the end of your url link, like the one below. 
-
- <img src="./images/helloworldweb.png" width="70%">
-
 ***Questions:***
 
 1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __Fill answer here__.
-2. What port is the apache web server running. ***(1 mark)*** __Fill answer here__.
-3. What port is open for http protocol on the host machine? ***(1 mark)*** __Fill answer here__.
+2. What port is the apache web server running. ***(1 mark)*** <br> __8080__.
+3. What port is open for http protocol on the host machine? ***(1 mark)*** <br> __8080__ <br> <img src="./images/webpage.jpg" width="70%">.
 
 ## Create SUB Networks
 
