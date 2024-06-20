@@ -125,11 +125,11 @@ You have now set up a Node.js application in a Docker container on nodejsnet net
 
 ***Questions:***
 
-1. What is the output of step 5 above, explain the error? ***(1 mark)*** <br> <img src="./images/nodejs.jpeg" width="70%">
-2. Show the instruction needed to make this work. ***(1 mark)*** ___```<br> To make the setup work, you need to connect the Node.js container to the mysqlnet network using the following command:_.
-    bash
-    docker network connect mysqlnet nodejs-container```__.
-
+1. What is the output of step 5 above, explain the error? ***(1 mark)*** <br> <img src="./images/nodejs.jpeg" width="100%">
+2. Show the instruction needed to make this work. ***(1 mark)*** <br> ___``` To make the setup work, you need to connect the Node.js container to the mysqlnet network using the following command:_.```___
+   <br> ```bash
+    docker network connect mysqlnet nodejs-container
+    ```
 
 
 ## What to submit
