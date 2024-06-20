@@ -34,7 +34,7 @@ Team Mates:
 Look at the TERMINAL tab. Run the following commands and provide the output here. 
 
 1. Run the command **pwd** . ***(1 mark)*** <br>> __@amrtlizzh ➜ /workspaces/OSProject (main) $ pwd
-/workspaces/OSProject__.
+/workspaces/OSProject__ >.
 2. Run the command **cat /etc/passwd** . ***(1 mark)*** __Fill answer here__.
 3. Run the command **df** . ***(1 mark)*** __Fill answer here__.
 4. Run the command **du** . ***(1 mark)*** __Fill answer here__.
