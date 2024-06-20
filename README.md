@@ -88,8 +88,8 @@ sudo chown -R codespace:codespace myroot
 ***Questions:***
 
 1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __Fill answer here__.
-2. What port is the apache web server running. ***(1 mark)*** <br> __8080__.
-3. What port is open for http protocol on the host machine? ***(1 mark)*** <br> __8080__ <br> <img src="./images/webpage.jpg" width="70%">.
+2. What port is the apache web server running. ***(1 mark)*** <br> __```8080```__.
+3. What port is open for http protocol on the host machine? ***(1 mark)*** <br> __```8080```__ <br> <img src="./images/webpage.jpg" width="70%">.
 
 ## Create SUB Networks
 
