@@ -13,7 +13,7 @@ Team Mates:
 ***Questions:***
 
 1. What is the link of the fork OSProject in your repository. ***(1 mark)***
- __https://github.com/amrtlizzh/OSProject__.
+<br> __https://github.com/amrtlizzh/OSProject__.
 2. How many files and folders are in this repository. ***(1 mark)*** __<br>  __- 1 readme.md file__
  <br>  __- 1 images folder____.
 
@@ -37,26 +37,30 @@ Look at the TERMINAL tab. Run the following commands and provide the output here
 2. Run the command **cat /etc/passwd** . ***(1 mark)*** <br> <img src="./images/command2.jpeg" width="70%">
 3. Run the command **df** . ***(1 mark)*** <br> <img src="./images/command3.jpeg" width="70%"> 
 4. Run the command **du** . ***(1 mark)***
-<br> <img src="./images/command4p1.jpeg" width="40%">
-<br> <img src="./images/command4p2.jpeg" width="40%">.
-<br> <img src="./images/command4p3.jpeg" width="40%">.
-<br> <img src="./images/command4p4.jpeg" width="40%">.
+<br> <img src="./images/command4p1.jpeg" width="20%">
+<br> <img src="./images/command4p2.jpeg" width="20%">.
+<br> <img src="./images/command4p3.jpeg" width="20%">.
+<br> <img src="./images/command4p4.jpeg" width="20%">.
 5. Run the command **ls** . ***(1 mark)***
 <br> <img src="./images/command5.jpeg" width="70%">.
 6. Run the command **ls -asl** . ***(1 mark)***
 <br> <img src="./images/command6.jpeg" width="70%">.
 7. Run the command **free -h** . ***(1 mark)***
 <br> <img src="./images/command7.jpeg" width="70%">.
-8. Run the command **cat /proc/cpuinfo** . ***(1 mark)***
-9. Run the command **top** and type **q** to quit. ***(1 mark)***
-10. Run the command **uname -a**. ***(1 mark)*** __Fill answer here__.
-11. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
-12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
-13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
-14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
-15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
+8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** 
+<br> <img src="./images/command8a.jpeg" width="20%">.
+<br> <img src="./images/command8b.jpeg" width="70%">.
+<br> <img src="./images/command8c.jpeg" width="20%">.
+<br> <img src="./images/command4p1.jpeg" width="70%">
+10. Run the command **top** and type **q** to quit. ***(1 mark)*** <br> <img src="./images/command9.jpeg" width="70%">.
+11. Run the command **uname -a**. ***(1 mark)*** <br> <img src="./images/command10.jpeg" width="70%">.
+12. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
+13. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
+14. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
+15. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
+16. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
+17. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
+18. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
 
 ## Running your own container instance.
 
