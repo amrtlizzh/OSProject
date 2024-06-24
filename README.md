@@ -81,6 +81,7 @@ __```2560 4K pages.```__.
 sudo chown -R codespace:codespace myroot
 
 ```
+<br>__ ```Yes. The permission of the files to user codespace can be change but there is no such file or directory found.```__
 <br> <img src="./images/changePermission.jpg" width="70%">
 
 ## You are on your own, create your own static webpage
