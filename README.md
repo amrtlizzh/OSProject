@@ -82,6 +82,7 @@ sudo chown -R codespace:codespace myroot
 
 ```
 <br> __```Yes, the permission of the files to user codespace can be changed, but the directory myroot was not found.```__
+<br>
 <br> <img src="./images/changePermission.jpg" width="70%">
 
 ## You are on your own, create your own static webpage
@@ -116,7 +117,7 @@ docker exec c1 ping c2
 
 1. Are you able to ping? Show your output . ***(1 mark)*** <br>___```Yes ```___ <br> <img src="./images/bridging.jpeg" width="50%">.
 
-2. What is different from the previous ping in the section above? ***(1 mark)*** <br> __```The difference from the previous ping is that in the successful scenario, both containers are on the same user-defined Docker network, allowing c1 to resolve and communicate with c2, whereas in the error scenario, c1 could not resolve c2 due to being on different networks or lack of proper network configuration```__.
+2. What is different from the previous ping in the section above? ***(1 mark)*** <br> <br> __```The difference from the previous ping is that in the successful scenario, both containers are on the same user-defined Docker network, allowing c1 to resolve and communicate with c2, whereas in the error scenario, c1 could not resolve c2 due to being on different networks or lack of proper network configuration```__.
 
 ## Intermediate Level (10 marks bonus)
 
